@@ -1,0 +1,14 @@
+{
+  "name": "orama-api",
+  "version": "1.0.0",
+  "description": "Simple mock server for orama app",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/json-server/bin/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js"
+  },
+  "author": "Kévio Castro"
+}
