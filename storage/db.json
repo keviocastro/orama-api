@@ -180,7 +180,14 @@
         {
             "id": 1,
             "fb_id": 111582516273180,
+            "highlighted": true,
             "fb_user_name": "origamis.app.9",
+            "welcome_messages": [
+                "Olá, é bom te ver por aqui",
+                "Hoje é dia de tomar uma",
+                "Você vai de qual hoje?"
+            ],
+            "highlight_message": "Caixa de Antartica lata só R$ 25,50.",
             "name": "Bear Head",
             "subtitle": "Choperia artesanal",
             "segmentIds": [
@@ -191,11 +198,13 @@
             },
             "latest_posts": [
                 {
-                    "image": {
-                        "uri": "http://orama.origamisapp.com/images/partners/posts/promo-1.jpg"
-                    },
-                    "created_at": "10 minutos atrás",
-                    "created_time": "2017-11-07T01:29:31+0000"
+                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-1.jpg"
+                },
+                {
+                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-2.jpg"
+                },
+                {
+                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-3.jpg"
                 }
             ],
             "location": {
@@ -212,6 +221,11 @@
             "segmentIds": [
                 1
             ],
+            "highlighted": true,
+            "welcome_messages": [
+                "Olá, tudo bem?",
+                "Em que eu posso te ajudar hoje?"
+            ],
             "fb_id": "1674535616180599",
             "name": "Assistência Técnica DELL",
             "subtitle": "Notebooks e Desktops",
@@ -224,6 +238,7 @@
             "segmentIds": [
                 1
             ],
+            "highlighted": true,
             "fb_id": "HB9qsgk7wHW",
             "name": "I-Smart",
             "subtitle": "Assistencia Tecnica",
@@ -236,7 +251,14 @@
             "segmentIds": [
                 18
             ],
+            "highlighted": true,
             "fb_user_name": "Panificadora Goiânia",
+            "welcome_messages": [
+                "Olá, tudo bem?",
+                "Estamos tendo promoção de bolos essa semana",
+                "Qualquer bolo por 9,90",
+                "Só isso por qualquer bolo, até da linha fitness :-)"
+            ],
             "name": "Panificadora Goiânia",
             "subtitle": "Venha saborear o mais delicioso suco detox da região.",
             "logo": {
@@ -246,6 +268,7 @@
             "fb_id": "https://www.facebook.com/pg/Panificadora-Goiania-1679645135611816/posts/?ref=page_internal"
         },
         {
+            "highlighted": true,
             "fb_user_name": "PaoKentao",
             "fb_id": "https://www.facebook.com/pg/PaoKentao/posts/?ref=page_internal",
             "name": " Panificadora e Confeitaria Pão Kentão",
@@ -262,6 +285,7 @@
             "segmentIds": [
                 18
             ],
+            "highlighted": true,
             "fb_id": "Panificadora Shopping do Pão",
             "name": "Panificadora Shopping do Pão",
             "fb_user_name": "https://www.facebook.com/pages/Panificadora-Shopping-do-Pão/247080105329104",
@@ -275,6 +299,7 @@
             "segmentIds": [
                 18
             ],
+            "highlighted": true,
             "fb_id": "https://www.facebook.com/pg/dellagoiania/posts/?ref=page_internal",
             "fb_user_name": "dellagoiania",
             "name": "Della Panificadora",
@@ -357,6 +382,14 @@
             "logo": {
                 "uri": "http://orama.origamisapp.com/images/partners/logos/md_produ__es__13.jpg"
             },
+            "latest_posts": [
+                {
+                    "image": "http://orama.origamisapp.com/images/partners/posts/md-producoes-1.jpeg"
+                },
+                {
+                    "image": "http://orama.origamisapp.com/images/partners/posts/md-producoes-2.jpeg"
+                }
+            ],
             "id": 13
         },
         {
@@ -364,6 +397,11 @@
             "fb_user_name": "CelgDoficial",
             "name": "CELG Distribuição",
             "subtitle": "Uma Empresa do Grupo ENEL",
+            "latest_posts": [
+                {
+                    "image": "http://orama.origamisapp.com/images/partners/posts/enel-1.jpeg"
+                }
+            ],
             "segmentIds": [
                 26
             ],

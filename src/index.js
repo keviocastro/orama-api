@@ -29,7 +29,7 @@ module.exports = () => {
 
                 if (record.latest_posts)
                     record.latest_posts = record.latest_posts.map((post) => {
-                        post.image.uri = replaceBaseUrl(post.image.uri)
+                        post.image = replaceBaseUrl(post.image)
                         return post
                     })
 
