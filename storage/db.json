@@ -1,4 +1,25 @@
 {
+    "notifications": [
+        {
+            "id": 1,
+            "partnerId": 1,
+            "title": "Hoje é sexta. Dia de tomar uma!",
+            "message": "Só hoje, a promoção de cervejas Colombina. Qualquer uma por R$ 15,90.",
+            "image-url": "http://www.curtamais.com.br/uploads/midias/aa6a5e6080c4f03374845b3e5db7e4f8.jpg",
+            "schedule": "Sat Nov 13 2018 17:00:00 GMT-0200",
+            "notified": true,
+            "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+        },
+        {
+            "id": 2,
+            "partnerId": 4,
+            "notified": false,
+            "schedule": "Sat Nov 18 2018 15:15:00 GMT-0200",
+            "title": "Hummmm! Pão quentinho saindo agora",
+            "image-url": "https://www.padariaeuropao.com.br/wp-content/uploads/2016/11/pao2-700x460.jpg",
+            "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+        }
+    ],
     "segments": [
         {
             "id": 1,
