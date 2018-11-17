@@ -1,6 +1,6 @@
 {
     "port": 3003,
     "watch": true,
-    "host": "192.168.15.2",
+    "host": "192.168.15.9",
     "static": "public"
 }

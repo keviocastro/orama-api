@@ -19,10 +19,10 @@ module.exports = () => {
         if (Array.isArray(dbJSON[resource])) {
             dbJSON[resource] = dbJSON[resource].map((record) => {
                 if (record.image)
-                    record.image.uri = replaceBaseUrl(record.image.uri)
+                    record.image = replaceBaseUrl(record.image)
 
                 if (record.logo)
-                    record.logo.uri = replaceBaseUrl(record.logo.uri)
+                    record.logo = replaceBaseUrl(record.logo)
 
                 if (record.highligh_image)
                     record.highligh_image = replaceBaseUrl(record.highligh_image)

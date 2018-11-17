@@ -6,8 +6,8 @@ const checkExistParamImage = (req, paramName) => {
   const image = req.body[paramName];
   if (
     image &&
-    Object.prototype.hasOwnProperty.call(image, 'uri') &&
-    image.uri.indexOf(';base64') > -1
+    Object.prototype.hasOwnProperty.call(image, 'base64') &&
+    image.base64.search(';base64') > -1
   ) {
     return true;
   }
@@ -17,10 +17,10 @@ const imageSave = (req, paramName, relativePaht) => {
   const image = req.body[paramName];
   const { id } = req.body;
 
-  const base64Image = removeBase64Header(image.uri);
+  const base64Image = removeBase64Header(image.base64);
   const imageName = `${id}-${image.name}`;
-  const imagePath = path.join(__dirname, `public/${relativePaht}/${imageName}`);
-  const imageUri = `${req.protocol}://${req.headers.host}/${relativePaht}/${imageName}`;
+  const imagePath = path.join(__dirname, `../public/${relativePaht}/${imageName}`);
+  const imageUrl = `${req.protocol}://${req.headers.host}/${relativePaht}/${imageName}`;
 
   fs.writeFile(imagePath, base64Image, { encoding: 'base64' }, (err) => {
     if (err) {
@@ -28,21 +28,26 @@ const imageSave = (req, paramName, relativePaht) => {
     }
   });
 
-  req.body[paramName].uri = imageUri;
+  req.body[paramName] = imageUrl;
 };
 
 module.exports = (req, res, next) => {
   if (req.method === 'PUT' || req.method === 'POST') {
-    if (checkExistParamImage(req, 'image')) {
-      imageSave(req, 'image', 'images/segments');
+    if(req.originalUrl.search("segments")){
+      if (checkExistParamImage(req, 'image')) {
+        imageSave(req, 'image', 'images/segments');
+      }
     }
 
-    if (checkExistParamImage(req, 'logo')) {
-      imageSave(req, 'logo', 'images/partners/logos');
+    if(req.originalUrl.search("partners")){
+      if (checkExistParamImage(req, 'logo')) {
+        imageSave(req, 'logo', 'images/partners/logos');
+      }
+
+      if (checkExistParamImage(req, 'highlight_image')) {
+        imageSave(req, 'highlight_image', 'images/partners/highlights');
+      }
     }
-    // res.status(422).jsonp({
-    //   error: 'The uri attribute of the image object must be encoded in base64',
-    // });
   }
 
   next();

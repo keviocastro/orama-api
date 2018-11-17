@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon ./node_modules/json-server/bin/index.js ./src/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js"
+    "start": "node ./node_modules/json-server/bin/index.js ./src/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js",
+    "debug": "nodemon --inspect ./node_modules/json-server/bin/index.js ./src/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js"
   },
   "author": "Kévio Castro"
 }
