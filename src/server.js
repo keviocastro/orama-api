@@ -1,16 +1,16 @@
-const path = require('path')
+const path  = require('path')
 const jsonServer = require('json-server')
-const fileUpload = require('express-fileupload')
-const config = require('./../config.json')
-
 const server = jsonServer.create()
-const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const router = jsonServer.router(path.join(__dirname, './../storage/db.json'))
 const middlewares = jsonServer.defaults()
 
-server.use(fileUpload)
+server.use(jsonServer.bodyParser)
+
+middlewares.push(require(path.join(__dirname,'./uploadImageMiddleware')))
+middlewares.push(require(path.join(__dirname,'./prepareBodyMiddleware')))
 server.use(middlewares)
+
 server.use(router)
-server.listen(3000, () => {
+server.listen(8080, () => {
   console.log('JSON Server is running')
-  console.log('Open http://localhost:3000/segments')
-});
+})

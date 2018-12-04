@@ -12,7 +12,7 @@ module.exports = () => {
         }
         return data
     })
-
+    
     let dbJSON = JSON.parse(rawData)
     let resources = Object.keys(dbJSON)
     resources.forEach((resource) => {
@@ -42,7 +42,8 @@ module.exports = () => {
 }
 
 const replaceBaseUrl = url => {
+    const host = config.host === undefined ? 'localhost' : config.host
     return url.replace(
-        'http://orama.origamisapp.com/',
-        'http://' + config.host + ':' + config.port + '/')
+        'http://api.o-rama.store/',
+        'http://' + host + ':' + config.port + '/')
 }

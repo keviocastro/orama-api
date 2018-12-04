@@ -1,1104 +1,1132 @@
 {
-    "notifications": [
+  "notifications": [
+    {
+      "id": 1,
+      "partnerId": 1,
+      "title": "Hoje é sexta. Dia de tomar uma!",
+      "message": "Só hoje, a promoção de cervejas Colombina. Qualquer uma por R$ 15,90.",
+      "image": "http://www.curtamais.com.br/uploads/midias/aa6a5e6080c4f03374845b3e5db7e4f8.jpg",
+      "schedule": "Sat Nov 13 2018 17:00:00 GMT-0200",
+      "notified": true,
+      "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+    },
+    {
+      "id": 2,
+      "partnerId": 4,
+      "notified": false,
+      "schedule": "Sat Nov 18 2018 15:15:00 GMT-0200",
+      "title": "Hummmm! Pão quentinho saindo agora",
+      "image": "https://www.padariaeuropao.com.br/wp-content/uploads/2016/11/pao2-700x460.jpg",
+      "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "name": "Assitência técnica",
+      "image": "http://api.o-rama.store/images/segments/botaoAssistenciaTecnica.JPG"
+    },
+    {
+      "id": 2,
+      "name": "Bebidas",
+      "image": "http://api.o-rama.store/images/segments/botaoBebidas.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Calçados",
+      "image": "http://api.o-rama.store/images/segments/botaoCalcados.JPG"
+    },
+    {
+      "id": 5,
+      "name": "Construção",
+      "image": "http://api.o-rama.store/images/segments/botaoCasaeConstrucao.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Corpo e Mente",
+      "image": "http://api.o-rama.store/images/segments/botaoCorpomente.JPG"
+    },
+    {
+      "id": 7,
+      "name": "Educação",
+      "image": "http://api.o-rama.store/images/segments/botaoEducacao.JPG"
+    },
+    {
+      "id": 9,
+      "name": "Esportes",
+      "image": "http://api.o-rama.store/images/segments/botaoEsportes.JPG"
+    },
+    {
+      "id": 10,
+      "name": "Estetica",
+      "image": "http://api.o-rama.store/images/segments/BotaoEstetica.JPG"
+    },
+    {
+      "id": 11,
+      "name": "Eventos e Festas",
+      "image": "http://api.o-rama.store/images/segments/botaoEventos.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Foto e Video",
+      "image": "http://api.o-rama.store/images/segments/botaoFotoVideo.JPG"
+    },
+    {
+      "id": 13,
+      "name": "Hortifruti e Grãos",
+      "image": "http://api.o-rama.store/images/segments/botaoHortifruti.JPG"
+    },
+    {
+      "id": 14,
+      "name": "Imobiliárias e Imóveis",
+      "image": "http://api.o-rama.store/images/segments/BotaoImobiliarias.JPG"
+    },
+    {
+      "id": 15,
+      "name": "Justiça e Cartórios",
+      "image": "http://api.o-rama.store/images/segments/BotaoJustica.JPG"
+    },
+    {
+      "id": 16,
+      "name": "Móveis e Decoração",
+      "image": "http://api.o-rama.store/images/segments/BotaoMoveiseDecoracao.JPG"
+    },
+    {
+      "id": 17,
+      "name": "O-rama Fast Commerce",
+      "image": "http://api.o-rama.store/images/segments/BotaoOrama.JPG"
+    },
+    {
+      "id": 18,
+      "name": "Pães, Bolos e Doces",
+      "image": "http://api.o-rama.store/images/segments/botaoPaesBoloseDoces.JPG"
+    },
+    {
+      "id": 19,
+      "name": "Papeis e Impressão",
+      "image": "http://api.o-rama.store/images/segments/BotaoPapeiseImpressao.JPG"
+    },
+    {
+      "id": 20,
+      "name": "Pets",
+      "image": "http://api.o-rama.store/images/segments/botaoPets.JPG"
+    },
+    {
+      "id": 21,
+      "name": "Restaurantes",
+      "image": "http://api.o-rama.store/images/segments/BotaoRestaurentes.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Moda ",
+      "image": "http://api.o-rama.store/images/segments/BotaoRoupas.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Sanduicheria e Café",
+      "image": "http://api.o-rama.store/images/segments/BotaoSanduicheriaeCafe.JPG"
+    },
+    {
+      "id": 24,
+      "name": "Saúde",
+      "image": "http://api.o-rama.store/images/segments/BotaoSaude.JPG"
+    },
+    {
+      "id": 25,
+      "name": "Transporte",
+      "image": "http://api.o-rama.store/images/partners/logos/transporte_25.jpg"
+    },
+    {
+      "name": "Governamental",
+      "image": "http://api.o-rama.store/images/partners/logos/governamental_26.jpg",
+      "id": 26
+    },
+    {
+      "image": "http://api.o-rama.store/images/partners/logos/j_ias_e_bijouterias_27.jpg",
+      "name": "Jóias e Bijouterias",
+      "id": 27
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "fb_id": 111582516273180,
+      "highlighted": true,
+      "fb_user_name": "origamis.app.9",
+      "welcome_messages": [
+        "Olá, é bom te ver por aqui",
+        "Hoje é dia de tomar uma",
+        "Você vai de qual hoje?"
+      ],
+      "highlight_message": "Caixa de Antartica lata só R$ 25,50.",
+      "name": "Bear Head",
+      "notification_credits": 5,
+      "subtitle": "Choperia artesanal",
+      "segmentIds": [
+        2
+      ],
+      "logo": "http://api.o-rama.store/images/partners/logos/logo-1.png",
+      "latest_posts": [
         {
-            "id": 1,
-            "partnerId": 1,
-            "title": "Hoje é sexta. Dia de tomar uma!",
-            "message": "Só hoje, a promoção de cervejas Colombina. Qualquer uma por R$ 15,90.",
-            "image": "http://www.curtamais.com.br/uploads/midias/aa6a5e6080c4f03374845b3e5db7e4f8.jpg",
-            "schedule": "Sat Nov 13 2018 17:00:00 GMT-0200",
-            "notified": true,
-            "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+          "image": "http://api.o-rama.store/images/partners/posts/promo-1.jpg"
         },
         {
-            "id": 2,
-            "partnerId": 4,
-            "notified": false,
-            "schedule": "Sat Nov 18 2018 15:15:00 GMT-0200",
-            "title": "Hummmm! Pão quentinho saindo agora",
-            "image": "https://www.padariaeuropao.com.br/wp-content/uploads/2016/11/pao2-700x460.jpg",
-            "to": "cj86ejx2xgs:APA91bFAO3dQ44j4Auq9YEhAMATzno-vmkI-k9vkRzv8RdQZg6QkHXtCwrPmNVkhuS1Nqpjo-Gj-_WxnPbSvRFaOcdwNBl58Q04PkTffQTrvWSGaZwTQUnu25MDEzQdMBKKQtW7SXhnM"
+          "image": "http://api.o-rama.store/images/partners/posts/promo-2.jpg"
+        },
+        {
+          "image": "http://api.o-rama.store/images/partners/posts/promo-3.jpg"
         }
-    ],
-    "segments": [
+      ],
+      "location": {
+        "latitude": -16.675459,
+        "longitude": -49.251237,
+        "distance": 0.6
+      },
+      "auth": {
+        "accessToken": "EAAF1zJ3haZCkBANTDVVDGr1QssfmKLTtOHUbvx5s69v8kCixpjILrDZCFNYE12WlSjPl9HrwyIrAbrxonaXUsLlaQCoO5HDQj1KV9kZA0WWbjZCiUPqw3uNgMHW39ZCWZCAXebp83JOV3xM91ZBfNDaN05EamUw3XtdZCNiD67ZBdgtUZAn0urILRC3bUeXooZARwJRlif5H31EzdZA87sE7tIlZCvFWa7Rql5MTnyDtQu6sThUexyIV7SXHF",
+        "expires": 1513993487000
+      }
+    },
+    {
+      "segmentIds": [
+        1
+      ],
+      "highlighted": true,
+      "welcome_messages": [
+        "Olá, tudo bem?",
+        "Em que eu posso te ajudar hoje?"
+      ],
+      "fb_id": "1674535616180599",
+      "name": "Assistência Técnica DELL",
+      "notification_credits": 5,
+      "subtitle": "Notebooks e Desktops",
+      "logo": "http://api.o-rama.store/images/partners/logos/assist_ncia_t_cnica_dell_2.jpg",
+      "id": 2
+    },
+    {
+      "segmentIds": [
+        1
+      ],
+      "highlighted": true,
+      "fb_id": "HB9qsgk7wHW",
+      "name": "I-Smart",
+      "notification_credits": 5,
+      "subtitle": "Assistencia Tecnica",
+      "logo": "http://api.o-rama.store/images/partners/logos/i_smart_3.jpg",
+      "id": 3
+    },
+    {
+      "segmentIds": [
+        18
+      ],
+      "highlighted": true,
+      "fb_user_name": "Panificadora Goiânia",
+      "welcome_messages": [
+        "Olá, tudo bem?",
+        "Estamos tendo promoção de bolos essa semana",
+        "Qualquer bolo por 9,90",
+        "Só isso por qualquer bolo, até da linha fitness :-)"
+      ],
+      "name": "Panificadora Goiânia",
+      "notification_credits": 5,
+      "subtitle": "Venha saborear o mais delicioso suco detox da região.",
+      "logo": "http://api.o-rama.store/images/partners/logos/panificadora_goi_nia_4.jpg",
+      "id": 4,
+      "fb_id": "https://www.facebook.com/pg/Panificadora-Goiania-1679645135611816/posts/?ref=page_internal"
+    },
+    {
+      "highlighted": true,
+      "fb_user_name": "PaoKentao",
+      "fb_id": "https://www.facebook.com/pg/PaoKentao/posts/?ref=page_internal",
+      "name": " Panificadora e Confeitaria Pão Kentão",
+      "notification_credits": 5,
+      "subtitle": "Encomendas podem ser feitas pelo telefone 3233-1624",
+      "logo": "http://api.o-rama.store/images/partners/logos/_panificadora_e_confeitaria_p_o_kent_o_5.jpg",
+      "segmentIds": [
+        18
+      ],
+      "id": 5
+    },
+    {
+      "segmentIds": [
+        18
+      ],
+      "highlighted": true,
+      "fb_id": "Panificadora Shopping do Pão",
+      "name": "Panificadora Shopping do Pão",
+      "fb_user_name": "https://www.facebook.com/pages/Panificadora-Shopping-do-Pão/247080105329104",
+      "notification_credits": 5,
+      "subtitle": "(62) 3246-0096",
+      "logo": "http://api.o-rama.store/images/partners/logos/panificadora_shopping_do_p_o_6.jpg",
+      "id": 6
+    },
+    {
+      "segmentIds": [
+        18
+      ],
+      "highlighted": true,
+      "fb_id": "https://www.facebook.com/pg/dellagoiania/posts/?ref=page_internal",
+      "fb_user_name": "dellagoiania",
+      "name": "Della Panificadora",
+      "logo": "http://api.o-rama.store/images/partners/logos/della_panificadora_7.jpg",
+      "id": 7
+    },
+    {
+      "segmentIds": [
+        18
+      ],
+      "name": " Panificadora Panini ",
+      "fb_id": "https://www.facebook.com/pg/PanificadoraPaniniGoiania/posts/?ref=page_internal",
+      "fb_user_name": "PanificadoraPaniniGoiania",
+      "notification_credits": 5,
+      "subtitle": "O seu sabor de todo dia",
+      "logo": "http://api.o-rama.store/images/partners/logos/_panificadora_panini__8.jpg",
+      "id": 8
+    },
+    {
+      "fb_user_name": "managoiania",
+      "fb_id": "https://www.facebook.com/pg/managoiania/posts/?ref=page_internal",
+      "segmentIds": [
+        18
+      ],
+      "name": "Panificadora Maná",
+      "logo": "http://api.o-rama.store/images/partners/logos/panificadora_man__9.jpg",
+      "id": 9
+    },
+    {
+      "segmentIds": [
+        18
+      ],
+      "fb_id": "https://www.facebook.com/pg/villagecafeeconfeitaria/posts/?ref=page_internal",
+      "name": "Village Café e Pães",
+      "fb_user_name": "villagecafeeconfeitaria",
+      "logo": "http://api.o-rama.store/images/partners/logos/village_caf__e_p_es_10.jpg",
+      "id": 10
+    },
+    {
+      "segmentIds": [
+        1
+      ],
+      "name": "Catec Peças e Serviços Técnicos Ltda",
+      "fb_id": "https://www.facebook.com/pg/catecgo/posts/?ref=page_internal",
+      "fb_user_name": "catecgo",
+      "logo": "http://api.o-rama.store/images/partners/logos/catec_pe_as_e_servi_os_t_cnicos_ltda_11.jpg",
+      "id": 11
+    },
+    {
+      "segmentIds": [
+        16,
+        1
+      ],
+      "name": " Jinflex",
+      "notification_credits": 5,
+      "subtitle": "Vendas e Serviços Técnicos de Cadeiras e Móveis",
+      "fb_user_name": "jinflex",
+      "fb_id": "https://www.facebook.com/pg/jinflex1986/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/_jinflex_12.jpg",
+      "id": 12
+    },
+    {
+      "segmentIds": [
+        12
+      ],
+      "name": "MD Produções ",
+      "fb_id": "https://www.facebook.com/pg/mdproducoesfotoevideo/posts/?ref=page_internal",
+      "fb_user_name": "mdproducoesfotoevideo",
+      "notification_credits": 5,
+      "subtitle": "Foto e Vídeo",
+      "logo": "http://api.o-rama.store/images/partners/logos/md_produ__es__13.jpg",
+      "latest_posts": [
         {
-            "id": 1,
-            "name": "Assitência técnica",
-            "image": "http://orama.origamisapp.com/images/segments/botaoAssistenciaTecnica.JPG"
+          "image": "http://api.o-rama.store/images/partners/posts/md-producoes-1.jpeg"
         },
         {
-            "id": 2,
-            "name": "Bebidas",
-            "image": "http://orama.origamisapp.com/images/segments/botaoBebidas.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Calçados",
-            "image": "http://orama.origamisapp.com/images/segments/botaoCalcados.JPG"
-        },
-        {
-            "id": 5,
-            "name": "Construção",
-            "image": "http://orama.origamisapp.com/images/segments/botaoCasaeConstrucao.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Corpo e Mente",
-            "image": "http://orama.origamisapp.com/images/segments/botaoCorpomente.JPG"
-        },
-        {
-            "id": 7,
-            "name": "Educação",
-            "image": "http://orama.origamisapp.com/images/segments/botaoEducacao.JPG"
-        },
-        {
-            "id": 9,
-            "name": "Esportes",
-            "image": "http://orama.origamisapp.com/images/segments/botaoEsportes.JPG"
-        },
-        {
-            "id": 10,
-            "name": "Estetica",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoEstetica.JPG"
-        },
-        {
-            "id": 11,
-            "name": "Eventos e Festas",
-            "image": "http://orama.origamisapp.com/images/segments/botaoEventos.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Foto e Video",
-            "image": "http://orama.origamisapp.com/images/segments/botaoFotoVideo.JPG"
-        },
-        {
-            "id": 13,
-            "name": "Hortifruti e Grãos",
-            "image": "http://orama.origamisapp.com/images/segments/botaoHortifruti.JPG"
-        },
-        {
-            "id": 14,
-            "name": "Imobiliárias e Imóveis",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoImobiliarias.JPG"
-        },
-        {
-            "id": 15,
-            "name": "Justiça e Cartórios",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoJustica.JPG"
-        },
-        {
-            "id": 16,
-            "name": "Móveis e Decoração",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoMoveiseDecoracao.JPG"
-        },
-        {
-            "id": 17,
-            "name": "O-rama Fast Commerce",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoOrama.JPG"
-        },
-        {
-            "id": 18,
-            "name": "Pães, Bolos e Doces",
-            "image": "http://orama.origamisapp.com/images/segments/botaoPaesBoloseDoces.JPG"
-        },
-        {
-            "id": 19,
-            "name": "Papeis e Impressão",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoPapeiseImpressao.JPG"
-        },
-        {
-            "id": 20,
-            "name": "Pets",
-            "image": "http://orama.origamisapp.com/images/segments/botaoPets.JPG"
-        },
-        {
-            "id": 21,
-            "name": "Restaurantes",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoRestaurentes.jpg"
-        },
-        {
-            "id": 22,
-            "name": "Moda ",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoRoupas.jpg"
-        },
-        {
-            "id": 23,
-            "name": "Sanduicheria e Café",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoSanduicheriaeCafe.JPG"
-        },
-        {
-            "id": 24,
-            "name": "Saúde",
-            "image": "http://orama.origamisapp.com/images/segments/BotaoSaude.JPG"
-        },
-        {
-            "id": 25,
-            "name": "Transporte",
-            "image": "http://orama.origamisapp.com/images/partners/logos/transporte_25.jpg"
-        },
-        {
-            "name": "Governamental",
-            "image": "http://orama.origamisapp.com/images/partners/logos/governamental_26.jpg",
-            "id": 26
-        },
-        {
-            "image": "http://orama.origamisapp.com/images/partners/logos/j_ias_e_bijouterias_27.jpg",
-            "name": "Jóias e Bijouterias",
-            "id": 27
+          "image": "http://api.o-rama.store/images/partners/posts/md-producoes-2.jpeg"
         }
-    ],
-    "partners": [
-        {
-            "id": 1,
-            "fb_id": 111582516273180,
-            "highlighted": true,
-            "fb_user_name": "origamis.app.9",
-            "welcome_messages": [
-                "Olá, é bom te ver por aqui",
-                "Hoje é dia de tomar uma",
-                "Você vai de qual hoje?"
-            ],
-            "highlight_message": "Caixa de Antartica lata só R$ 25,50.",
-            "name": "Bear Head",
-            "notification_credits": 5,
-            "subtitle": "Choperia artesanal",
-            "segmentIds": [
-                2
-            ],
-            "logo": "http://orama.origamisapp.com/images/partners/logos/logo-1.png",
-            "latest_posts": [
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-1.jpg"
-                },
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-2.jpg"
-                },
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/promo-3.jpg"
-                }
-            ],
-            "location": {
-                "latitude": -16.675459,
-                "longitude": -49.251237,
-                "distance": 0.6
-            },
-            "auth": {
-                "accessToken": "EAAF1zJ3haZCkBANTDVVDGr1QssfmKLTtOHUbvx5s69v8kCixpjILrDZCFNYE12WlSjPl9HrwyIrAbrxonaXUsLlaQCoO5HDQj1KV9kZA0WWbjZCiUPqw3uNgMHW39ZCWZCAXebp83JOV3xM91ZBfNDaN05EamUw3XtdZCNiD67ZBdgtUZAn0urILRC3bUeXooZARwJRlif5H31EzdZA87sE7tIlZCvFWa7Rql5MTnyDtQu6sThUexyIV7SXHF",
-                "expires": 1513993487000
-            }
-        },
-        {
-            "segmentIds": [
-                1
-            ],
-            "highlighted": true,
-            "welcome_messages": [
-                "Olá, tudo bem?",
-                "Em que eu posso te ajudar hoje?"
-            ],
-            "fb_id": "1674535616180599",
-            "name": "Assistência Técnica DELL",
-            "notification_credits": 5,
-            "subtitle": "Notebooks e Desktops",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/assist_ncia_t_cnica_dell_2.jpg",
-            "id": 2
-        },
-        {
-            "segmentIds": [
-                1
-            ],
-            "highlighted": true,
-            "fb_id": "HB9qsgk7wHW",
-            "name": "I-Smart",
-            "notification_credits": 5,
-            "subtitle": "Assistencia Tecnica",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/i_smart_3.jpg",
-            "id": 3
-        },
-        {
-            "segmentIds": [
-                18
-            ],
-            "highlighted": true,
-            "fb_user_name": "Panificadora Goiânia",
-            "welcome_messages": [
-                "Olá, tudo bem?",
-                "Estamos tendo promoção de bolos essa semana",
-                "Qualquer bolo por 9,90",
-                "Só isso por qualquer bolo, até da linha fitness :-)"
-            ],
-            "name": "Panificadora Goiânia",
-            "notification_credits": 5,
-            "subtitle": "Venha saborear o mais delicioso suco detox da região.",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/panificadora_goi_nia_4.jpg",
-            "id": 4,
-            "fb_id": "https://www.facebook.com/pg/Panificadora-Goiania-1679645135611816/posts/?ref=page_internal"
-        },
-        {
-            "highlighted": true,
-            "fb_user_name": "PaoKentao",
-            "fb_id": "https://www.facebook.com/pg/PaoKentao/posts/?ref=page_internal",
-            "name": " Panificadora e Confeitaria Pão Kentão",
-            "notification_credits": 5,
-            "subtitle": "Encomendas podem ser feitas pelo telefone 3233-1624",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_panificadora_e_confeitaria_p_o_kent_o_5.jpg",
-            "segmentIds": [
-                18
-            ],
-            "id": 5
-        },
-        {
-            "segmentIds": [
-                18
-            ],
-            "highlighted": true,
-            "fb_id": "Panificadora Shopping do Pão",
-            "name": "Panificadora Shopping do Pão",
-            "fb_user_name": "https://www.facebook.com/pages/Panificadora-Shopping-do-Pão/247080105329104",
-            "notification_credits": 5,
-            "subtitle": "(62) 3246-0096",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/panificadora_shopping_do_p_o_6.jpg",
-            "id": 6
-        },
-        {
-            "segmentIds": [
-                18
-            ],
-            "highlighted": true,
-            "fb_id": "https://www.facebook.com/pg/dellagoiania/posts/?ref=page_internal",
-            "fb_user_name": "dellagoiania",
-            "name": "Della Panificadora",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/della_panificadora_7.jpg",
-            "id": 7
-        },
-        {
-            "segmentIds": [
-                18
-            ],
-            "name": " Panificadora Panini ",
-            "fb_id": "https://www.facebook.com/pg/PanificadoraPaniniGoiania/posts/?ref=page_internal",
-            "fb_user_name": "PanificadoraPaniniGoiania",
-            "notification_credits": 5,
-            "subtitle": "O seu sabor de todo dia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_panificadora_panini__8.jpg",
-            "id": 8
-        },
-        {
-            "fb_user_name": "managoiania",
-            "fb_id": "https://www.facebook.com/pg/managoiania/posts/?ref=page_internal",
-            "segmentIds": [
-                18
-            ],
-            "name": "Panificadora Maná",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/panificadora_man__9.jpg",
-            "id": 9
-        },
-        {
-            "segmentIds": [
-                18
-            ],
-            "fb_id": "https://www.facebook.com/pg/villagecafeeconfeitaria/posts/?ref=page_internal",
-            "name": "Village Café e Pães",
-            "fb_user_name": "villagecafeeconfeitaria",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/village_caf__e_p_es_10.jpg",
-            "id": 10
-        },
-        {
-            "segmentIds": [
-                1
-            ],
-            "name": "Catec Peças e Serviços Técnicos Ltda",
-            "fb_id": "https://www.facebook.com/pg/catecgo/posts/?ref=page_internal",
-            "fb_user_name": "catecgo",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/catec_pe_as_e_servi_os_t_cnicos_ltda_11.jpg",
-            "id": 11
-        },
-        {
-            "segmentIds": [
-                16,
-                1
-            ],
-            "name": " Jinflex",
-            "notification_credits": 5,
-            "subtitle": "Vendas e Serviços Técnicos de Cadeiras e Móveis",
-            "fb_user_name": "jinflex",
-            "fb_id": "https://www.facebook.com/pg/jinflex1986/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_jinflex_12.jpg",
-            "id": 12
-        },
-        {
-            "segmentIds": [
-                12
-            ],
-            "name": "MD Produções ",
-            "fb_id": "https://www.facebook.com/pg/mdproducoesfotoevideo/posts/?ref=page_internal",
-            "fb_user_name": "mdproducoesfotoevideo",
-            "notification_credits": 5,
-            "subtitle": "Foto e Vídeo",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/md_produ__es__13.jpg",
-            "latest_posts": [
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/md-producoes-1.jpeg"
-                },
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/md-producoes-2.jpeg"
-                }
-            ],
-            "id": 13
-        },
-        {
-            "fb_id": "https://www.facebook.com/pg/CelgDoficial/posts/?ref=page_internal",
-            "fb_user_name": "CelgDoficial",
-            "name": "CELG Distribuição",
-            "notification_credits": 5,
-            "subtitle": "Uma Empresa do Grupo ENEL",
-            "latest_posts": [
-                {
-                    "image": "http://orama.origamisapp.com/images/partners/posts/enel-1.jpeg"
-                }
-            ],
-            "segmentIds": [
-                26
-            ],
-            "logo": "http://orama.origamisapp.com/images/partners/logos/celg_distribui__o_14.jpg",
-            "id": 14
-        },
-        {
-            "segmentIds": [
-                27
-            ],
-            "fb_id": "https://www.facebook.com/pg/wendeljoias/posts/?ref=page_internal",
-            "name": "Wendel Joias",
-            "fb_user_name": "wendeljoias",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/wendel_joias_15.jpg",
-            "id": 15
-        },
-        {
-            "segmentIds": [
-                27
-            ],
-            "name": "Rei Das Jóias",
-            "fb_id": "https://www.facebook.com/pg/ReidasJoias/posts/?ref=page_internal",
-            "fb_user_name": "ReidasJoias",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/rei_das_j_ias_16.jpg",
-            "id": 16
-        },
-        {
-            "segmentIds": [
-                27
-            ],
-            "name": "Deville Jóias",
-            "fb_id": "https://www.facebook.com/pg/www.devillejoias.com.br/posts/?ref=page_internal",
-            "fb_user_name": "www.devillejoias.com.br",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/deville_j_ias_17.jpg",
-            "id": 17
-        },
-        {
-            "fb_id": "https://www.facebook.com/pg/estasijoalheria/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/joalheria_estasi_18.jpg",
-            "name": "Joalheria Estasi",
-            "fb_user_name": "estasijoalheria",
-            "segmentIds": [
-                27
-            ],
-            "id": 18
-        },
-        {
-            "fb_id": "https://www.facebook.com/pg/letoucheoficial/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/le_touche_19.jpg",
-            "segmentIds": [
-                10
-            ],
-            "notification_credits": 5,
-            "subtitle": "Cabelo E Maquiagem",
-            "fb_user_name": "letoucheoficial",
-            "name": "Le Touche",
-            "id": 19
-        },
-        {
-            "segmentIds": [
-                10
-            ],
-            "fb_user_name": "mrsalonpermitamudar",
-            "name": "MR Salon",
-            "fb_id": "https://www.facebook.com/pg/mrsalonpermitamudar/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/mr_salon_20.jpg",
-            "id": 20
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/excellence_cabeleireiros_21.jpg",
-            "name": "Excellence Cabeleireiros",
-            "fb_id": "https://www.facebook.com/pg/ExcellenceCabeleireiros/posts/?ref=page_internal",
-            "fb_user_name": "ExcellenceCabeleireiros",
-            "segmentIds": [
-                10
-            ],
-            "id": 21
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/illuminart__22.jpg",
-            "name": "Illuminart ",
-            "notification_credits": 5,
-            "subtitle": "Foto & Filme",
-            "segmentIds": [
-                12
-            ],
-            "fb_id": "https://www.facebook.com/pg/illuminart.fot.br/posts/?ref=page_internal",
-            "fb_user_name": "illuminart.fot.br",
-            "id": 22
-        },
-        {
-            "segmentIds": [
-                10
-            ],
-            "name": "Hair Club Goiania",
-            "fb_user_name": "hairclubgoiania",
-            "fb_id": "https://www.facebook.com/pg/hairclubgoiania/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/hair_club_goiania_23.jpg",
-            "id": 23
-        },
-        {
-            "name": "GaneShop ",
-            "notification_credits": 5,
-            "subtitle": "Cosméticos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/ganeshop__24.jpg",
-            "segmentIds": [
-                10
-            ],
-            "fb_id": "https://www.facebook.com/pg/GaneShop-Cosméticos-1536585019932413/posts/?ref=page_internal",
-            "fb_user_name": "GaneShop-Cosméticos-1536585019932413",
-            "id": 24
-        },
-        {
-            "name": " Charme ",
-            "notification_credits": 5,
-            "subtitle": "Perfumes e Cosméticos ",
-            "segmentIds": [
-                10
-            ],
-            "fb_id": "https://www.facebook.com/pg/Charmeperfumesecosmeticos/posts/?ref=page_internal",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_charme__25.jpg",
-            "fb_user_name": "Charmeperfumesecosmeticos",
-            "id": 25
-        },
-        {
-            "name": " Inovar ",
-            "notification_credits": 5,
-            "subtitle": "Cosméticos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_inovar__26.jpg",
-            "fb_id": "https://www.facebook.com/pg/Inovar-Cosméticos-801203576576032/posts/?ref=page_internal",
-            "fb_user_name": "Inovar-Cosméticos-801203576576032",
-            "segmentIds": [
-                10
-            ],
-            "id": 26
-        },
-        {
-            "name": "Shopping dos Cosméticos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/shopping_dos_cosm_ticos_27.jpg",
-            "fb_id": "https://www.facebook.com/pg/ShoppingdosCosmeticosOficial/posts/?ref=page_internal",
-            "fb_user_name": "ShoppingdosCosmeticosOficial",
-            "segmentIds": [
-                10
-            ],
-            "id": 27
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/pisando__28.jpg",
-            "name": "Pisando ",
-            "fb_id": "https://www.facebook.com/pg/pisando.calcados/posts/?ref=page_internal",
-            "fb_user_name": "pisando.calcados",
-            "segmentIds": [
-                4
-            ],
-            "notification_credits": 5,
-            "subtitle": "Calçados",
-            "id": 28
-        },
-        {
-            "name": "Yanaê ",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/yana___29.jpg",
-            "fb_id": "https://www.facebook.com/pg/yanaecalcados/posts/?ref=page_internal",
-            "fb_user_name": "yanaecalcados",
-            "segmentIds": [
-                4
-            ],
-            "notification_credits": 5,
-            "subtitle": "Calçados",
-            "id": 29
-        },
-        {
-            "name": "Flávio's ",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/fl_vio_s__30.jpg",
-            "fb_id": "https://www.facebook.com/pg/flavios.calcados/posts/?ref=page_internal",
-            "fb_user_name": "flavios.calcados",
-            "notification_credits": 5,
-            "subtitle": "Calçados",
-            "segmentIds": [
-                4
-            ],
-            "id": 30
-        },
-        {
-            "name": "Pegada",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/pegada_31.jpg",
-            "segmentIds": [
-                4
-            ],
-            "fb_id": "https://www.facebook.com/pg/calcadospegada/posts/?ref=page_internal",
-            "fb_user_name": "calcadospegada",
-            "notification_credits": 5,
-            "subtitle": "Calçados",
-            "id": 31
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/yahoo__32.jpg",
-            "name": "Yahoo ",
-            "notification_credits": 5,
-            "subtitle": "Calçados",
-            "segmentIds": [
-                4
-            ],
-            "fb_id": "https://www.facebook.com/pg/yahoocalcados/posts/?ref=page_internal",
-            "fb_user_name": "yahoocalcados",
-            "id": 32
-        },
-        {
-            "name": "Os Rei das Sandálias",
-            "segmentIds": [
-                4
-            ],
-            "logo": "http://orama.origamisapp.com/images/partners/logos/os_rei_das_sand_lias_33.jpg",
-            "fb_id": "https://www.facebook.com/pg/ozhavaianas2/posts/?ref=page_internal",
-            "fb_user_name": "ozhavaianas2",
-            "id": 33
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/aldeia__34.jpg",
-            "name": "Aldeia ",
-            "notification_credits": 5,
-            "subtitle": "Acabamentos E Complementos",
-            "fb_id": "https://www.facebook.com/pg/aldeiatem/posts/?ref=page_internal",
-            "fb_user_name": "aldeiatem",
-            "segmentIds": [
-                5
-            ],
-            "id": 34
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/shopping_do_acabamento_35.jpg",
-            "name": "Shopping Do Acabamento",
-            "fb_id": "https://www.facebook.com/pg/Shoppingdoacabamento/posts/?ref=page_internal",
-            "segmentIds": [
-                5
-            ],
-            "fb_user_name": "Shoppingdoacabamento",
-            "id": 35
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/goi_s_cola_36.jpg",
-            "name": "Goiás Cola",
-            "fb_id": "https://www.facebook.com/pg/goias.cola/posts/?ref=page_internal",
-            "fb_user_name": "goias.cola",
-            "segmentIds": [
-                5
-            ],
-            "id": 36
-        },
-        {
-            "segmentIds": [
-                5
-            ],
-            "name": "Nortaço",
-            "fb_id": "https://www.facebook.com/pg/nortacoltda/posts/?ref=page_internal",
-            "fb_user_name": "nortacoltda",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/norta_o_37.jpg",
-            "id": 37
-        },
-        {
-            "name": "Concretta Goiânia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/concretta_goi_nia_38.jpg",
-            "segmentIds": [
-                5
-            ],
-            "fb_id": "https://www.facebook.com/pg/concrettagoiania/posts/?ref=page_internal",
-            "fb_user_name": "concrettagoiania",
-            "id": 38
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/contorno__39.jpg",
-            "name": "Contorno ",
-            "notification_credits": 5,
-            "subtitle": "Materiais de construção",
-            "segmentIds": [
-                5
-            ],
-            "fb_id": "https://www.facebook.com/pg/contornomateriais/posts/?ref=page_internal",
-            "fb_user_name": "contornomateriais",
-            "id": 39
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/rede_da_constru__o_40.jpg",
-            "name": "Rede da Construção",
-            "fb_id": "https://www.facebook.com/pg/rededaconstrucao1/posts/?ref=page_internal",
-            "segmentIds": [
-                5
-            ],
-            "fb_user_name": "rededaconstrucao1",
-            "notification_credits": 5,
-            "subtitle": "Materiais de construção",
-            "id": 40
-        },
-        {
-            "segmentIds": [
-                5
-            ],
-            "name": "Insite Engenharia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/insite_engenharia_41.jpg",
-            "fb_user_name": "insiteengenharia",
-            "fb_id": "https://www.facebook.com/pg/insiteengenharia/posts/?ref=page_internal",
-            "id": 41
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/a_g__42.jpg",
-            "name": "A&G ",
-            "notification_credits": 5,
-            "subtitle": "Projetos e Construções",
-            "segmentIds": [
-                5
-            ],
-            "fb_id": "https://www.facebook.com/pg/AG-Projetos-e-Construções-474859875914004/posts/?ref=page_internal",
-            "fb_user_name": "Kelluz-Materiais-Elétricos",
-            "id": 42
-        },
-        {
-            "name": "AJEL",
-            "notification_credits": 5,
-            "subtitle": "Materiais Elétricos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/ajel_43.jpg",
-            "segmentIds": [
-                5
-            ],
-            "fb_id": "https://www.facebook.com/pg/AJELMATERIAISELETRICOS/posts/?ref=page_internal",
-            "fb_user_name": "AJELMATERIAISELETRICOS",
-            "id": 43
-        },
-        {
-            "name": "Eletroenge ",
-            "notification_credits": 5,
-            "subtitle": "Materiais Elétricos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/eletroenge__44.jpg",
-            "segmentIds": [
-                5
-            ],
-            "fb_id": "https://www.facebook.com/pg/eletroenge/posts/?ref=page_internal",
-            "fb_user_name": "eletroenge",
-            "id": 44
-        },
-        {
-            "name": "BATUIR Gonçalves Dias",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/batuir_gon_alves_dias_45.jpg",
-            "notification_credits": 5,
-            "subtitle": "Clínica de Podologia",
-            "fb_id": "https://www.facebook.com/pg/Podologo.BATUIR/posts/?ref=page_internal",
-            "segmentIds": [
-                6
-            ],
-            "fb_user_name": "Podologo.BATUIR",
-            "id": 45
-        },
-        {
-            "name": "Center Feet ",
-            "notification_credits": 5,
-            "subtitle": "Podologia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/center_feet__46.jpg",
-            "fb_id": "https://www.facebook.com/pg/centerfeet/posts/?ref=page_internal",
-            "fb_user_name": "centerfeet",
-            "segmentIds": [
-                6
-            ],
-            "id": 46
-        },
-        {
-            "segmentIds": [
-                6
-            ],
-            "name": "Vivere Bene\" ",
-            "notification_credits": 5,
-            "subtitle": "Massagem e Massoterapia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/vivere_bene___47.jpg",
-            "fb_id": "https://www.facebook.com/pg/MassagemEmGoiania/posts/?ref=page_internal",
-            "fb_user_name": "MassagemEmGoiania",
-            "id": 47
-        },
-        {
-            "segmentIds": [
-                6
-            ],
-            "name": "Toque & Retoque",
-            "notification_credits": 5,
-            "subtitle": "Massagem e depilação",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/toque___retoque_48.jpg",
-            "fb_id": "https://www.facebook.com/pg/Massagem-e-depilação-Goiânia-Toque-Retoque-1718887758389520/posts/?ref=page_internal",
-            "fb_user_name": "Massagem-e-depilação-Goiânia-Toque-Retoque-1718887758389520",
-            "id": 48
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/meglaser_49.jpg",
-            "name": "MegLaser",
-            "notification_credits": 5,
-            "subtitle": "Estética & Depilação",
-            "segmentIds": [
-                6,
-                10
-            ],
-            "fb_id": "https://www.facebook.com/pg/meglaser/posts/?ref=page_internal",
-            "fb_user_name": "meglaser",
-            "id": 49
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/depillen_50.jpg",
-            "name": "Depillen",
-            "fb_id": "https://www.facebook.com/pg/Depillen.goiania/posts/?ref=page_internal",
-            "fb_user_name": "Depillen.goiania",
-            "notification_credits": 5,
-            "subtitle": "Referência em Depilação",
-            "segmentIds": [
-                6,
-                10
-            ],
-            "id": 50
-        },
-        {
-            "name": "By Pello",
-            "notification_credits": 5,
-            "subtitle": "Depilação, Bronzeamento e Estética",
-            "segmentIds": [
-                6,
-                10
-            ],
-            "fb_id": "https://www.facebook.com/pg/By-Pello-Depilação-Bronzeamento-e-Estética-127853230620035/posts/?ref=page_internal",
-            "fb_user_name": "By-Pello-Depilação-Bronzeamento-e-Estética-127853230620035",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/by_pello_51.jpg",
-            "id": 51
-        },
-        {
-            "name": "Black Horse",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/black_horse_52.jpg",
-            "segmentIds": [
-                6,
-                10
-            ],
-            "fb_id": "https://www.facebook.com/pg/oficialblackhorse/posts/?ref=page_internal",
-            "fb_user_name": "oficialblackhorse",
-            "notification_credits": 5,
-            "subtitle": "Barbearia ",
-            "id": 52
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/vargas__53.jpg",
-            "name": "Vargas ",
-            "fb_id": "https://www.facebook.com/pg/barbeariavargasgoiania/posts/?ref=page_internal",
-            "segmentIds": [
-                6,
-                10
-            ],
-            "fb_user_name": "barbeariavargasgoiania",
-            "notification_credits": 5,
-            "subtitle": "Barbearia ",
-            "id": 53
-        },
-        {
-            "name": "Espaço Viva",
-            "notification_credits": 5,
-            "subtitle": "Saúde Integral",
-            "segmentIds": [
-                6,
-                10,
-                24
-            ],
-            "fb_id": "https://www.facebook.com/pg/EspacoVivaSaudeIntegral/posts/?ref=page_internal",
-            "fb_user_name": "EspacoVivaSaudeIntegral",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/espa_o_viva_54.jpg",
-            "id": 54
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/ashtanga_yoga_55.jpg",
-            "name": "Ashtanga Yoga",
-            "fb_id": "https://www.facebook.com/pg/ashtangayogagoiania/posts/?ref=page_internal",
-            "segmentIds": [
-                6,
-                10,
-                24
-            ],
-            "fb_user_name": "ashtangayogagoiania",
-            "id": 55
-        },
-        {
-            "segmentIds": [
-                6
-            ],
-            "logo": "http://orama.origamisapp.com/images/partners/logos/gracie_barra__56.jpg",
-            "name": "Gracie Barra ",
-            "notification_credits": 5,
-            "subtitle": "Goiânia Premium",
-            "fb_id": "https://www.facebook.com/pg/GBGoiania/posts/?ref=page_internal",
-            "fb_user_name": "GBGoiania",
-            "id": 56
-        },
-        {
-            "name": "Fighters Team ",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/fighters_team__57.jpg",
-            "segmentIds": [
-                6
-            ],
-            "fb_id": "https://www.facebook.com/pg/www.academiamegaforce.com.br/posts/?ref=page_internal",
-            "fb_user_name": "www.academiamegaforce.com.br",
-            "notification_credits": 5,
-            "subtitle": "Goiânia",
-            "id": 57
-        },
-        {
-            "name": "Estúdio de Pilates Alongatto",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/est_dio_de_pilates_alongatto_58.jpg",
-            "segmentIds": [
-                6
-            ],
-            "fb_id": "https://www.facebook.com/pg/alongatto/posts/?ref=page_internal",
-            "fb_user_name": "alongatto",
-            "id": 58
-        },
-        {
-            "name": "Espaço Clínico Viver Bem - Centro de Treinamento Physio Pilates ",
-            "notification_credits": 5,
-            "subtitle": "Goiânia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/espa_o_cl_nico_viver_bem___centro_de_treinamento_physio_pilates__59.jpg",
-            "segmentIds": [
-                6
-            ],
-            "fb_id": "https://www.facebook.com/pg/espacoclinicoviverbempilates/posts/?ref=page_internal",
-            "fb_user_name": "espacoclinicoviverbempilates",
-            "id": 59
-        },
-        {
-            "name": "Clínica de Fisioterapia ",
-            "notification_credits": 5,
-            "subtitle": "Saúde e Bem Estar",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/cl_nica_de_fisioterapia__60.jpg",
-            "fb_id": "https://www.facebook.com/pg/saudeebemestar11/posts/?ref=page_internal",
-            "fb_user_name": "saudeebemestar11",
-            "segmentIds": [
-                6,
-                24
-            ],
-            "id": 60
-        },
-        {
-            "name": "Realiza ",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/realiza__61.jpg",
-            "notification_credits": 5,
-            "subtitle": "Cursos",
-            "segmentIds": [
-                7
-            ],
-            "fb_id": "https://www.facebook.com/pg/RealizaCursosePreparatorios/posts/?ref=page_internal",
-            "fb_user_name": "RealizaCursosePreparatorios",
-            "id": 61
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/academia_do_marketing_62.jpg",
-            "name": "Academia do Marketing",
-            "fb_id": "https://www.facebook.com/pg/academiadomarketing/posts/?ref=page_internal",
-            "fb_user_name": "academiadomarketing",
-            "segmentIds": [
-                7
-            ],
-            "id": 62
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_escola_de_m_sica_eletr_nica_63.jpg",
-            "name": " Escola de Música Eletrônica",
-            "notification_credits": 5,
-            "subtitle": "Goiânia",
-            "fb_id": "https://www.facebook.com/pg/cursodedjgoiania/posts/?ref=page_internal",
-            "fb_user_name": "cursodedjgoiania",
-            "segmentIds": [
-                7
-            ],
-            "id": 63
-        },
-        {
-            "name": "Evolute Cursos ",
-            "notification_credits": 5,
-            "subtitle": "Goiânia",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/evolute_cursos__64.jpg",
-            "segmentIds": [
-                7
-            ],
-            "fb_id": "https://www.facebook.com/pg/evolutecursosgoiania/posts/?ref=page_internal",
-            "fb_user_name": "evolutecursosgoiania",
-            "id": 64
-        },
-        {
-            "segmentIds": [
-                7
-            ],
-            "name": "Curso Logos ",
-            "notification_credits": 5,
-            "subtitle": "Preparatório para o IFG",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/curso_logos__65.jpg",
-            "fb_id": "https://www.facebook.com/pg/cursologospreparatorioparaoifg/posts/?ref=page_internal",
-            "fb_user_name": "cursologospreparatorioparaoifg",
-            "id": 65
-        },
-        {
-            "name": "Nature Fit",
-            "notification_credits": 5,
-            "subtitle": "Alimentos Saudáveis",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/nature_fit_66.jpg",
-            "segmentIds": [
-                24,
-                23
-            ],
-            "fb_id": "https://www.facebook.com/pg/naturefitalimentacaosaudavel/posts/?ref=page_internal",
-            "fb_user_name": "naturefitalimentacaosaudavel",
-            "id": 66
-        },
-        {
-            "name": "AB Sports",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/ab_sports_67.jpg",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/absportsgyn/posts/?ref=page_internal",
-            "fb_user_name": "absportsgyn",
-            "notification_credits": 5,
-            "subtitle": "A Loja de Todos Esportes",
-            "id": 67
-        },
-        {
-            "name": "Areião Esportes",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/arei_o_esportes_68.jpg",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/AreiaoEsportes/posts/?ref=page_internal",
-            "fb_user_name": "AreiaoEsportes",
-            "notification_credits": 5,
-            "subtitle": "Esportes",
-            "id": 68
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/centro_esportivo__69.jpg",
-            "name": "Centro Esportivo ",
-            "notification_credits": 5,
-            "subtitle": "Goiânia Society",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/goianiasociety/posts/?ref=page_internal",
-            "fb_user_name": "goianiasociety",
-            "id": 69
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/academia_contato_70.jpg",
-            "segmentIds": [
-                9
-            ],
-            "name": "Academia Contato",
-            "fb_id": "https://www.facebook.com/pg/contatoacademia/posts/?highlightedref=page_internal",
-            "fb_user_name": "contatoacademia",
-            "id": 70
-        },
-        {
-            "name": "Academia ",
-            "notification_credits": 5,
-            "subtitle": "Sport Training",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/academia__71.jpg",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/academiasporttraining/posts/?ref=page_internal",
-            "fb_user_name": "academiasporttraining",
-            "id": 71
-        },
-        {
-            "name": "Academia Pride",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/academia_pride_72.jpg",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/AcademiasPride/posts/?ref=page_internal",
-            "fb_user_name": "AcademiasPride",
-            "id": 72
-        },
-        {
-            "name": " Academia Fitness ",
-            "notification_credits": 5,
-            "subtitle": "Sport Center",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/_academia_fitness__73.jpg",
-            "segmentIds": [
-                9
-            ],
-            "fb_id": "https://www.facebook.com/pg/academiafitnesssport/posts/?ref=page_internal",
-            "fb_user_name": "academiafitnesssport",
-            "id": 73
-        },
-        {
-            "name": "Unifestas ",
-            "notification_credits": 5,
-            "subtitle": "Espaço para Festas",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/unifestas__74.jpg",
-            "segmentIds": [
-                11
-            ],
-            "fb_id": "https://www.facebook.com/pg/unifestasespacoparafestas/posts/?ref=page_internal",
-            "fb_user_name": "unifestasespacoparafestas",
-            "id": 74
-        },
-        {
-            "logo": "http://orama.origamisapp.com/images/partners/logos/bella__75.jpg",
-            "name": "Bella ",
-            "notification_credits": 5,
-            "subtitle": "Eventos Goiânia",
-            "segmentIds": [
-                11
-            ],
-            "fb_id": "https://www.facebook.com/pg/bellaeventosgoiania/posts/?ref=page_internal",
-            "fb_user_name": "bellaeventosgoiania",
-            "id": 75
-        },
-        {
-            "name": "MILLI Eventos",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/milli_eventos_76.jpg",
-            "segmentIds": [
-                11
-            ],
-            "fb_id": "https://www.facebook.com/pg/MilliEventos/posts/?ref=page_internal",
-            "fb_user_name": "MilliEventos",
-            "id": 76
-        },
-        {
-            "name": "Super Fantástico Festas",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/super_fant_stico_festas_77.jpg",
-            "segmentIds": [
-                11
-            ],
-            "fb_id": "https://www.facebook.com/pages/Super-Fantástico-Festas/207644229267805",
-            "fb_user_name": "Super-Fantástico-Festas",
-            "id": 77
-        },
-        {
-            "segmentIds": [
-                17
-            ],
-            "fb_id": "1812329195732180",
-            "fb_user_name": "ORAMAFASTCOMMERCE",
-            "name": "O-RAMA",
-            "notification_credits": 5,
-            "subtitle": "FAST COMMERCE",
-            "logo": "http://orama.origamisapp.com/images/partners/logos/o_rama_78.jpg",
-            "id": 78
+      ],
+      "id": 13
+    },
+    {
+      "fb_id": "https://www.facebook.com/pg/CelgDoficial/posts/?ref=page_internal",
+      "fb_user_name": "CelgDoficial",
+      "name": "CELG Distribuição",
+      "notification_credits": 5,
+      "subtitle": "Uma Empresa do Grupo ENEL",
+      "latest_posts": [
+        {
+          "image": "http://api.o-rama.store/images/partners/posts/enel-1.jpeg"
         }
-    ]
+      ],
+      "segmentIds": [
+        26
+      ],
+      "logo": "http://api.o-rama.store/images/partners/logos/celg_distribui__o_14.jpg",
+      "id": 14
+    },
+    {
+      "segmentIds": [
+        27
+      ],
+      "fb_id": "https://www.facebook.com/pg/wendeljoias/posts/?ref=page_internal",
+      "name": "Wendel Joias",
+      "fb_user_name": "wendeljoias",
+      "logo": "http://api.o-rama.store/images/partners/logos/wendel_joias_15.jpg",
+      "id": 15
+    },
+    {
+      "segmentIds": [
+        27
+      ],
+      "name": "Rei Das Jóias",
+      "fb_id": "https://www.facebook.com/pg/ReidasJoias/posts/?ref=page_internal",
+      "fb_user_name": "ReidasJoias",
+      "logo": "http://api.o-rama.store/images/partners/logos/rei_das_j_ias_16.jpg",
+      "id": 16
+    },
+    {
+      "segmentIds": [
+        27
+      ],
+      "name": "Deville Jóias",
+      "fb_id": "https://www.facebook.com/pg/www.devillejoias.com.br/posts/?ref=page_internal",
+      "fb_user_name": "www.devillejoias.com.br",
+      "logo": "http://api.o-rama.store/images/partners/logos/deville_j_ias_17.jpg",
+      "id": 17
+    },
+    {
+      "fb_id": "https://www.facebook.com/pg/estasijoalheria/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/joalheria_estasi_18.jpg",
+      "name": "Joalheria Estasi",
+      "fb_user_name": "estasijoalheria",
+      "segmentIds": [
+        27
+      ],
+      "id": 18
+    },
+    {
+      "fb_id": "https://www.facebook.com/pg/letoucheoficial/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/le_touche_19.jpg",
+      "segmentIds": [
+        10
+      ],
+      "notification_credits": 5,
+      "subtitle": "Cabelo E Maquiagem",
+      "fb_user_name": "letoucheoficial",
+      "name": "Le Touche",
+      "id": 19
+    },
+    {
+      "segmentIds": [
+        10
+      ],
+      "fb_user_name": "mrsalonpermitamudar",
+      "name": "MR Salon",
+      "fb_id": "https://www.facebook.com/pg/mrsalonpermitamudar/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/mr_salon_20.jpg",
+      "id": 20
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/excellence_cabeleireiros_21.jpg",
+      "name": "Excellence Cabeleireiros",
+      "fb_id": "https://www.facebook.com/pg/ExcellenceCabeleireiros/posts/?ref=page_internal",
+      "fb_user_name": "ExcellenceCabeleireiros",
+      "segmentIds": [
+        10
+      ],
+      "id": 21
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/illuminart__22.jpg",
+      "name": "Illuminart ",
+      "notification_credits": 5,
+      "subtitle": "Foto & Filme",
+      "segmentIds": [
+        12
+      ],
+      "fb_id": "https://www.facebook.com/pg/illuminart.fot.br/posts/?ref=page_internal",
+      "fb_user_name": "illuminart.fot.br",
+      "id": 22
+    },
+    {
+      "segmentIds": [
+        10
+      ],
+      "name": "Hair Club Goiania",
+      "fb_user_name": "hairclubgoiania",
+      "fb_id": "https://www.facebook.com/pg/hairclubgoiania/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/hair_club_goiania_23.jpg",
+      "id": 23
+    },
+    {
+      "name": "GaneShop ",
+      "notification_credits": 5,
+      "subtitle": "Cosméticos",
+      "logo": "http://api.o-rama.store/images/partners/logos/ganeshop__24.jpg",
+      "segmentIds": [
+        10
+      ],
+      "fb_id": "https://www.facebook.com/pg/GaneShop-Cosméticos-1536585019932413/posts/?ref=page_internal",
+      "fb_user_name": "GaneShop-Cosméticos-1536585019932413",
+      "id": 24
+    },
+    {
+      "name": " Charme ",
+      "notification_credits": 5,
+      "subtitle": "Perfumes e Cosméticos ",
+      "segmentIds": [
+        10
+      ],
+      "fb_id": "https://www.facebook.com/pg/Charmeperfumesecosmeticos/posts/?ref=page_internal",
+      "logo": "http://api.o-rama.store/images/partners/logos/_charme__25.jpg",
+      "fb_user_name": "Charmeperfumesecosmeticos",
+      "id": 25
+    },
+    {
+      "name": " Inovar ",
+      "notification_credits": 5,
+      "subtitle": "Cosméticos",
+      "logo": "http://api.o-rama.store/images/partners/logos/_inovar__26.jpg",
+      "fb_id": "https://www.facebook.com/pg/Inovar-Cosméticos-801203576576032/posts/?ref=page_internal",
+      "fb_user_name": "Inovar-Cosméticos-801203576576032",
+      "segmentIds": [
+        10
+      ],
+      "id": 26
+    },
+    {
+      "name": "Shopping dos Cosméticos",
+      "logo": "http://api.o-rama.store/images/partners/logos/shopping_dos_cosm_ticos_27.jpg",
+      "fb_id": "https://www.facebook.com/pg/ShoppingdosCosmeticosOficial/posts/?ref=page_internal",
+      "fb_user_name": "ShoppingdosCosmeticosOficial",
+      "segmentIds": [
+        10
+      ],
+      "id": 27
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/pisando__28.jpg",
+      "name": "Pisando ",
+      "fb_id": "https://www.facebook.com/pg/pisando.calcados/posts/?ref=page_internal",
+      "fb_user_name": "pisando.calcados",
+      "segmentIds": [
+        4
+      ],
+      "notification_credits": 5,
+      "subtitle": "Calçados",
+      "id": 28
+    },
+    {
+      "name": "Yanaê ",
+      "logo": "http://api.o-rama.store/images/partners/logos/yana___29.jpg",
+      "fb_id": "https://www.facebook.com/pg/yanaecalcados/posts/?ref=page_internal",
+      "fb_user_name": "yanaecalcados",
+      "segmentIds": [
+        4
+      ],
+      "notification_credits": 5,
+      "subtitle": "Calçados",
+      "id": 29
+    },
+    {
+      "name": "Flávio's ",
+      "logo": "http://api.o-rama.store/images/partners/logos/fl_vio_s__30.jpg",
+      "fb_id": "https://www.facebook.com/pg/flavios.calcados/posts/?ref=page_internal",
+      "fb_user_name": "flavios.calcados",
+      "notification_credits": 5,
+      "subtitle": "Calçados",
+      "segmentIds": [
+        4
+      ],
+      "id": 30
+    },
+    {
+      "name": "Pegada",
+      "logo": "http://api.o-rama.store/images/partners/logos/pegada_31.jpg",
+      "segmentIds": [
+        4
+      ],
+      "fb_id": "https://www.facebook.com/pg/calcadospegada/posts/?ref=page_internal",
+      "fb_user_name": "calcadospegada",
+      "notification_credits": 5,
+      "subtitle": "Calçados",
+      "id": 31
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/yahoo__32.jpg",
+      "name": "Yahoo ",
+      "notification_credits": 5,
+      "subtitle": "Calçados",
+      "segmentIds": [
+        4
+      ],
+      "fb_id": "https://www.facebook.com/pg/yahoocalcados/posts/?ref=page_internal",
+      "fb_user_name": "yahoocalcados",
+      "id": 32
+    },
+    {
+      "name": "Os Rei das Sandálias",
+      "segmentIds": [
+        4
+      ],
+      "logo": "http://api.o-rama.store/images/partners/logos/os_rei_das_sand_lias_33.jpg",
+      "fb_id": "https://www.facebook.com/pg/ozhavaianas2/posts/?ref=page_internal",
+      "fb_user_name": "ozhavaianas2",
+      "id": 33
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/aldeia__34.jpg",
+      "name": "Aldeia ",
+      "notification_credits": 5,
+      "subtitle": "Acabamentos E Complementos",
+      "fb_id": "https://www.facebook.com/pg/aldeiatem/posts/?ref=page_internal",
+      "fb_user_name": "aldeiatem",
+      "segmentIds": [
+        5
+      ],
+      "id": 34
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/shopping_do_acabamento_35.jpg",
+      "name": "Shopping Do Acabamento",
+      "fb_id": "https://www.facebook.com/pg/Shoppingdoacabamento/posts/?ref=page_internal",
+      "segmentIds": [
+        5
+      ],
+      "fb_user_name": "Shoppingdoacabamento",
+      "id": 35
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/goi_s_cola_36.jpg",
+      "name": "Goiás Cola",
+      "fb_id": "https://www.facebook.com/pg/goias.cola/posts/?ref=page_internal",
+      "fb_user_name": "goias.cola",
+      "segmentIds": [
+        5
+      ],
+      "id": 36
+    },
+    {
+      "segmentIds": [
+        5
+      ],
+      "name": "Nortaço",
+      "fb_id": "https://www.facebook.com/pg/nortacoltda/posts/?ref=page_internal",
+      "fb_user_name": "nortacoltda",
+      "logo": "http://api.o-rama.store/images/partners/logos/norta_o_37.jpg",
+      "id": 37
+    },
+    {
+      "name": "Concretta Goiânia",
+      "logo": "http://api.o-rama.store/images/partners/logos/concretta_goi_nia_38.jpg",
+      "segmentIds": [
+        5
+      ],
+      "fb_id": "https://www.facebook.com/pg/concrettagoiania/posts/?ref=page_internal",
+      "fb_user_name": "concrettagoiania",
+      "id": 38
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/contorno__39.jpg",
+      "name": "Contorno ",
+      "notification_credits": 5,
+      "subtitle": "Materiais de construção",
+      "segmentIds": [
+        5
+      ],
+      "fb_id": "https://www.facebook.com/pg/contornomateriais/posts/?ref=page_internal",
+      "fb_user_name": "contornomateriais",
+      "id": 39
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/rede_da_constru__o_40.jpg",
+      "name": "Rede da Construção",
+      "fb_id": "https://www.facebook.com/pg/rededaconstrucao1/posts/?ref=page_internal",
+      "segmentIds": [
+        5
+      ],
+      "fb_user_name": "rededaconstrucao1",
+      "notification_credits": 5,
+      "subtitle": "Materiais de construção",
+      "id": 40
+    },
+    {
+      "segmentIds": [
+        5
+      ],
+      "name": "Insite Engenharia",
+      "logo": "http://api.o-rama.store/images/partners/logos/insite_engenharia_41.jpg",
+      "fb_user_name": "insiteengenharia",
+      "fb_id": "https://www.facebook.com/pg/insiteengenharia/posts/?ref=page_internal",
+      "id": 41
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/a_g__42.jpg",
+      "name": "A&G ",
+      "notification_credits": 5,
+      "subtitle": "Projetos e Construções",
+      "segmentIds": [
+        5
+      ],
+      "fb_id": "https://www.facebook.com/pg/AG-Projetos-e-Construções-474859875914004/posts/?ref=page_internal",
+      "fb_user_name": "Kelluz-Materiais-Elétricos",
+      "id": 42
+    },
+    {
+      "name": "AJEL",
+      "notification_credits": 5,
+      "subtitle": "Materiais Elétricos",
+      "logo": "http://api.o-rama.store/images/partners/logos/ajel_43.jpg",
+      "segmentIds": [
+        5
+      ],
+      "fb_id": "https://www.facebook.com/pg/AJELMATERIAISELETRICOS/posts/?ref=page_internal",
+      "fb_user_name": "AJELMATERIAISELETRICOS",
+      "id": 43
+    },
+    {
+      "name": "Eletroenge ",
+      "notification_credits": 5,
+      "subtitle": "Materiais Elétricos",
+      "logo": "http://api.o-rama.store/images/partners/logos/eletroenge__44.jpg",
+      "segmentIds": [
+        5
+      ],
+      "fb_id": "https://www.facebook.com/pg/eletroenge/posts/?ref=page_internal",
+      "fb_user_name": "eletroenge",
+      "id": 44
+    },
+    {
+      "name": "BATUIR Gonçalves Dias",
+      "logo": "http://api.o-rama.store/images/partners/logos/batuir_gon_alves_dias_45.jpg",
+      "notification_credits": 5,
+      "subtitle": "Clínica de Podologia",
+      "fb_id": "https://www.facebook.com/pg/Podologo.BATUIR/posts/?ref=page_internal",
+      "segmentIds": [
+        6
+      ],
+      "fb_user_name": "Podologo.BATUIR",
+      "id": 45
+    },
+    {
+      "name": "Center Feet ",
+      "notification_credits": 5,
+      "subtitle": "Podologia",
+      "logo": "http://api.o-rama.store/images/partners/logos/center_feet__46.jpg",
+      "fb_id": "https://www.facebook.com/pg/centerfeet/posts/?ref=page_internal",
+      "fb_user_name": "centerfeet",
+      "segmentIds": [
+        6
+      ],
+      "id": 46
+    },
+    {
+      "segmentIds": [
+        6
+      ],
+      "name": "Vivere Bene\" ",
+      "notification_credits": 5,
+      "subtitle": "Massagem e Massoterapia",
+      "logo": "http://api.o-rama.store/images/partners/logos/vivere_bene___47.jpg",
+      "fb_id": "https://www.facebook.com/pg/MassagemEmGoiania/posts/?ref=page_internal",
+      "fb_user_name": "MassagemEmGoiania",
+      "id": 47
+    },
+    {
+      "segmentIds": [
+        6
+      ],
+      "name": "Toque & Retoque",
+      "notification_credits": 5,
+      "subtitle": "Massagem e depilação",
+      "logo": "http://api.o-rama.store/images/partners/logos/toque___retoque_48.jpg",
+      "fb_id": "https://www.facebook.com/pg/Massagem-e-depilação-Goiânia-Toque-Retoque-1718887758389520/posts/?ref=page_internal",
+      "fb_user_name": "Massagem-e-depilação-Goiânia-Toque-Retoque-1718887758389520",
+      "id": 48
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/meglaser_49.jpg",
+      "name": "MegLaser",
+      "notification_credits": 5,
+      "subtitle": "Estética & Depilação",
+      "segmentIds": [
+        6,
+        10
+      ],
+      "fb_id": "https://www.facebook.com/pg/meglaser/posts/?ref=page_internal",
+      "fb_user_name": "meglaser",
+      "id": 49
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/depillen_50.jpg",
+      "name": "Depillen",
+      "fb_id": "https://www.facebook.com/pg/Depillen.goiania/posts/?ref=page_internal",
+      "fb_user_name": "Depillen.goiania",
+      "notification_credits": 5,
+      "subtitle": "Referência em Depilação",
+      "segmentIds": [
+        6,
+        10
+      ],
+      "id": 50
+    },
+    {
+      "name": "By Pello",
+      "notification_credits": 5,
+      "subtitle": "Depilação, Bronzeamento e Estética",
+      "segmentIds": [
+        6,
+        10
+      ],
+      "fb_id": "https://www.facebook.com/pg/By-Pello-Depilação-Bronzeamento-e-Estética-127853230620035/posts/?ref=page_internal",
+      "fb_user_name": "By-Pello-Depilação-Bronzeamento-e-Estética-127853230620035",
+      "logo": "http://api.o-rama.store/images/partners/logos/by_pello_51.jpg",
+      "id": 51
+    },
+    {
+      "name": "Black Horse",
+      "logo": "http://api.o-rama.store/images/partners/logos/black_horse_52.jpg",
+      "segmentIds": [
+        6,
+        10
+      ],
+      "fb_id": "https://www.facebook.com/pg/oficialblackhorse/posts/?ref=page_internal",
+      "fb_user_name": "oficialblackhorse",
+      "notification_credits": 5,
+      "subtitle": "Barbearia ",
+      "id": 52
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/vargas__53.jpg",
+      "name": "Vargas ",
+      "fb_id": "https://www.facebook.com/pg/barbeariavargasgoiania/posts/?ref=page_internal",
+      "segmentIds": [
+        6,
+        10
+      ],
+      "fb_user_name": "barbeariavargasgoiania",
+      "notification_credits": 5,
+      "subtitle": "Barbearia ",
+      "id": 53
+    },
+    {
+      "name": "Espaço Viva",
+      "notification_credits": 5,
+      "subtitle": "Saúde Integral",
+      "segmentIds": [
+        6,
+        10,
+        24
+      ],
+      "fb_id": "https://www.facebook.com/pg/EspacoVivaSaudeIntegral/posts/?ref=page_internal",
+      "fb_user_name": "EspacoVivaSaudeIntegral",
+      "logo": "http://api.o-rama.store/images/partners/logos/espa_o_viva_54.jpg",
+      "id": 54
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/ashtanga_yoga_55.jpg",
+      "name": "Ashtanga Yoga",
+      "fb_id": "https://www.facebook.com/pg/ashtangayogagoiania/posts/?ref=page_internal",
+      "segmentIds": [
+        6,
+        10,
+        24
+      ],
+      "fb_user_name": "ashtangayogagoiania",
+      "id": 55
+    },
+    {
+      "segmentIds": [
+        6
+      ],
+      "logo": "http://api.o-rama.store/images/partners/logos/gracie_barra__56.jpg",
+      "name": "Gracie Barra ",
+      "notification_credits": 5,
+      "subtitle": "Goiânia Premium",
+      "fb_id": "https://www.facebook.com/pg/GBGoiania/posts/?ref=page_internal",
+      "fb_user_name": "GBGoiania",
+      "id": 56
+    },
+    {
+      "name": "Fighters Team ",
+      "logo": "http://api.o-rama.store/images/partners/logos/fighters_team__57.jpg",
+      "segmentIds": [
+        6
+      ],
+      "fb_id": "https://www.facebook.com/pg/www.academiamegaforce.com.br/posts/?ref=page_internal",
+      "fb_user_name": "www.academiamegaforce.com.br",
+      "notification_credits": 5,
+      "subtitle": "Goiânia",
+      "id": 57
+    },
+    {
+      "name": "Estúdio de Pilates Alongatto",
+      "logo": "http://api.o-rama.store/images/partners/logos/est_dio_de_pilates_alongatto_58.jpg",
+      "segmentIds": [
+        6
+      ],
+      "fb_id": "https://www.facebook.com/pg/alongatto/posts/?ref=page_internal",
+      "fb_user_name": "alongatto",
+      "id": 58
+    },
+    {
+      "name": "Espaço Clínico Viver Bem - Centro de Treinamento Physio Pilates ",
+      "notification_credits": 5,
+      "subtitle": "Goiânia",
+      "logo": "http://api.o-rama.store/images/partners/logos/espa_o_cl_nico_viver_bem___centro_de_treinamento_physio_pilates__59.jpg",
+      "segmentIds": [
+        6
+      ],
+      "fb_id": "https://www.facebook.com/pg/espacoclinicoviverbempilates/posts/?ref=page_internal",
+      "fb_user_name": "espacoclinicoviverbempilates",
+      "id": 59
+    },
+    {
+      "name": "Clínica de Fisioterapia ",
+      "notification_credits": 5,
+      "subtitle": "Saúde e Bem Estar",
+      "logo": "http://api.o-rama.store/images/partners/logos/cl_nica_de_fisioterapia__60.jpg",
+      "fb_id": "https://www.facebook.com/pg/saudeebemestar11/posts/?ref=page_internal",
+      "fb_user_name": "saudeebemestar11",
+      "segmentIds": [
+        6,
+        24
+      ],
+      "id": 60
+    },
+    {
+      "name": "Realiza ",
+      "logo": "http://api.o-rama.store/images/partners/logos/realiza__61.jpg",
+      "notification_credits": 5,
+      "subtitle": "Cursos",
+      "segmentIds": [
+        7
+      ],
+      "fb_id": "https://www.facebook.com/pg/RealizaCursosePreparatorios/posts/?ref=page_internal",
+      "fb_user_name": "RealizaCursosePreparatorios",
+      "id": 61
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/academia_do_marketing_62.jpg",
+      "name": "Academia do Marketing",
+      "fb_id": "https://www.facebook.com/pg/academiadomarketing/posts/?ref=page_internal",
+      "fb_user_name": "academiadomarketing",
+      "segmentIds": [
+        7
+      ],
+      "id": 62
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/_escola_de_m_sica_eletr_nica_63.jpg",
+      "name": " Escola de Música Eletrônica",
+      "notification_credits": 5,
+      "subtitle": "Goiânia",
+      "fb_id": "https://www.facebook.com/pg/cursodedjgoiania/posts/?ref=page_internal",
+      "fb_user_name": "cursodedjgoiania",
+      "segmentIds": [
+        7
+      ],
+      "id": 63
+    },
+    {
+      "name": "Evolute Cursos ",
+      "notification_credits": 5,
+      "subtitle": "Goiânia",
+      "logo": "http://api.o-rama.store/images/partners/logos/evolute_cursos__64.jpg",
+      "segmentIds": [
+        7
+      ],
+      "fb_id": "https://www.facebook.com/pg/evolutecursosgoiania/posts/?ref=page_internal",
+      "fb_user_name": "evolutecursosgoiania",
+      "id": 64
+    },
+    {
+      "segmentIds": [
+        7
+      ],
+      "name": "Curso Logos ",
+      "notification_credits": 5,
+      "subtitle": "Preparatório para o IFG",
+      "logo": "http://api.o-rama.store/images/partners/logos/curso_logos__65.jpg",
+      "fb_id": "https://www.facebook.com/pg/cursologospreparatorioparaoifg/posts/?ref=page_internal",
+      "fb_user_name": "cursologospreparatorioparaoifg",
+      "id": 65
+    },
+    {
+      "name": "Nature Fit",
+      "notification_credits": 5,
+      "subtitle": "Alimentos Saudáveis",
+      "logo": "http://api.o-rama.store/images/partners/logos/nature_fit_66.jpg",
+      "segmentIds": [
+        24,
+        23
+      ],
+      "fb_id": "https://www.facebook.com/pg/naturefitalimentacaosaudavel/posts/?ref=page_internal",
+      "fb_user_name": "naturefitalimentacaosaudavel",
+      "id": 66
+    },
+    {
+      "name": "AB Sports",
+      "logo": "http://api.o-rama.store/images/partners/logos/ab_sports_67.jpg",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/absportsgyn/posts/?ref=page_internal",
+      "fb_user_name": "absportsgyn",
+      "notification_credits": 5,
+      "subtitle": "A Loja de Todos Esportes",
+      "id": 67
+    },
+    {
+      "name": "Areião Esportes",
+      "logo": "http://api.o-rama.store/images/partners/logos/arei_o_esportes_68.jpg",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/AreiaoEsportes/posts/?ref=page_internal",
+      "fb_user_name": "AreiaoEsportes",
+      "notification_credits": 5,
+      "subtitle": "Esportes",
+      "id": 68
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/centro_esportivo__69.jpg",
+      "name": "Centro Esportivo ",
+      "notification_credits": 5,
+      "subtitle": "Goiânia Society",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/goianiasociety/posts/?ref=page_internal",
+      "fb_user_name": "goianiasociety",
+      "id": 69
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/academia_contato_70.jpg",
+      "segmentIds": [
+        9
+      ],
+      "name": "Academia Contato",
+      "fb_id": "https://www.facebook.com/pg/contatoacademia/posts/?highlightedref=page_internal",
+      "fb_user_name": "contatoacademia",
+      "id": 70
+    },
+    {
+      "name": "Academia ",
+      "notification_credits": 5,
+      "subtitle": "Sport Training",
+      "logo": "http://api.o-rama.store/images/partners/logos/academia__71.jpg",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/academiasporttraining/posts/?ref=page_internal",
+      "fb_user_name": "academiasporttraining",
+      "id": 71
+    },
+    {
+      "name": "Academia Pride",
+      "logo": "http://api.o-rama.store/images/partners/logos/academia_pride_72.jpg",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/AcademiasPride/posts/?ref=page_internal",
+      "fb_user_name": "AcademiasPride",
+      "id": 72
+    },
+    {
+      "name": " Academia Fitness ",
+      "notification_credits": 5,
+      "subtitle": "Sport Center",
+      "logo": "http://api.o-rama.store/images/partners/logos/_academia_fitness__73.jpg",
+      "segmentIds": [
+        9
+      ],
+      "fb_id": "https://www.facebook.com/pg/academiafitnesssport/posts/?ref=page_internal",
+      "fb_user_name": "academiafitnesssport",
+      "id": 73
+    },
+    {
+      "name": "Unifestas ",
+      "notification_credits": 5,
+      "subtitle": "Espaço para Festas",
+      "logo": "http://api.o-rama.store/images/partners/logos/unifestas__74.jpg",
+      "segmentIds": [
+        11
+      ],
+      "fb_id": "https://www.facebook.com/pg/unifestasespacoparafestas/posts/?ref=page_internal",
+      "fb_user_name": "unifestasespacoparafestas",
+      "id": 74,
+      "highlight_image": [
+        {
+          "rawFile": {
+            "preview": "blob:http://localhost:3001/923e48a0-926c-4028-b1d5-89bc94463989"
+          },
+          "highlight_image": "blob:http://localhost:3001/923e48a0-926c-4028-b1d5-89bc94463989",
+          "Imagem de destaque": "pao.jpeg"
+        }
+      ]
+    },
+    {
+      "logo": "http://api.o-rama.store/images/partners/logos/bella__75.jpg",
+      "name": "Bella ",
+      "notification_credits": 5,
+      "subtitle": "Eventos Goiânia",
+      "segmentIds": [
+        11
+      ],
+      "fb_id": "https://www.facebook.com/pg/bellaeventosgoiania/posts/?ref=page_internal",
+      "fb_user_name": "bellaeventosgoiania",
+      "id": 75
+    },
+    {
+      "name": "MILLI Eventos",
+      "logo": "http://api.o-rama.store/images/partners/logos/milli_eventos_76.jpg",
+      "segmentIds": [
+        11
+      ],
+      "fb_id": "https://www.facebook.com/pg/MilliEventos/posts/?ref=page_internal",
+      "fb_user_name": "MilliEventos",
+      "id": 76,
+      "highlight_image": [
+        {
+          "rawFile": {
+            "preview": "blob:http://localhost:3001/8846de9a-f85e-4c99-8ee2-3a346b471f99"
+          },
+          "highlight_image": "blob:http://localhost:3001/8846de9a-f85e-4c99-8ee2-3a346b471f99",
+          "Imagem de destaque": "orama.png"
+        }
+      ]
+    },
+    {
+      "name": "Super Fantástico Festas",
+      "logo": "http://api.o-rama.store/images/partners/logos/super_fant_stico_festas_77.jpg",
+      "segmentIds": [
+        11
+      ],
+      "fb_id": "https://www.facebook.com/pages/Super-Fantástico-Festas/207644229267805",
+      "fb_user_name": "Super-Fantástico-Festas",
+      "id": 77
+    },
+    {
+      "segmentIds": [
+        17
+      ],
+      "fb_id": "1812329195732180",
+      "fb_user_name": "ORAMAFASTCOMMERCE",
+      "name": "O-RAMA",
+      "notification_credits": 5,
+      "subtitle": "FAST COMMERCE",
+      "logo": "http://192.168.15.9:8080/images/partners/logos/78-orama.png",
+      "id": 78,
+      "highlight_image": [
+        {
+          "rawFile": {
+            "preview": "blob:http://localhost:3001/4cc6168c-a41d-4e8c-9a86-984174049e2f"
+          },
+          "highlight_image": "blob:http://localhost:3001/4cc6168c-a41d-4e8c-9a86-984174049e2f",
+          "Imagem de destaque": "Captura de tela de 2018-11-13 19-25-34.png"
+        }
+      ],
+      "highlighted": true
+    }
+  ]
 }
