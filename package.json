@@ -1,15 +1,18 @@
 {
   "name": "orama-api",
   "version": "1.0.0",
-  "description": "Simple mock server for orama app",
+  "description": "Orama API",
   "main": "index.js",
-  "dependencies": {
-    "json-server": "^0.14.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "node ./src/server.js --watch ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js",
-    "debug": "nodemon --inspect ./node_modules/json-server/bin/index.js ./src/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js"
+    "start": "node ./src/server.js",
+    "debug": "nodemon --inspect ./src/server.js"
   },
-  "author": "Kévio Castro"
+  "author": "Kévio Castro",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.0",
+    "node-restful": "^0.2.6"
+  }
 }

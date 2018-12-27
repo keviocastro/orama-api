@@ -1,16 +1,31 @@
-const path  = require('path')
-const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router(path.join(__dirname, './../storage/db.json'))
-const middlewares = jsonServer.defaults()
+const express = require('express'),
+    bodyParser = require('body-parser'),
+    methodOverride = require('method-override'),
+    // morgan = require('morgan'),
+    restful = require('node-restful'),
+    mongoose = restful.mongoose
+const app = express()
+const config = require('./../config')
 
-server.use(jsonServer.bodyParser)
+// app.use(morgan('dev'))
+app.use(bodyParser.urlencoded({'extended':'true'}))
+app.use(bodyParser.json())
+app.use(bodyParser.json({type:'application/vnd.api+json'}))
+app.use(methodOverride())
 
-middlewares.push(require(path.join(__dirname,'./uploadImageMiddleware')))
-middlewares.push(require(path.join(__dirname,'./prepareBodyMiddleware')))
-server.use(middlewares)
+mongoose.connect('mongodb://localhost/orama', { useNewUrlParser: true })
+const Resource = app.resource = restful.model('segment', mongoose.Schema({
+  name: String,
+  image: String,
+})).methods(['get', 'post', 'put', 'delete'])
+Resource.register(app, '/segments')
 
-server.use(router)
-server.listen(8080, () => {
-  console.log('JSON Server is running')
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'mongo connection error:'));
+db.once('open', function() {
+  console.log('mongo connected')
+});
+
+app.listen(config.port, () => {
+  console.log('API running on port '+config.port)
 })
