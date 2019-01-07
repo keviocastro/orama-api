@@ -47,6 +47,10 @@ module.exports = (req, res, next) => {
       if (checkExistParamImage(req, 'highlight_image')) {
         imageSave(req, 'highlight_image', 'images/partners/highlights');
       }
+
+      if (checkExistParamImage(req, 'feed_image')) {
+        imageSave(req, 'feed_image', 'images/partners/feeds');
+      }
     }
   }
 
