@@ -1,9 +1,7 @@
 const config = require('./../config')
 const fs = require('fs')
-const dns = require('dns')
 const path = require('path')
 const dbPath = path.join(__dirname, './../storage/db.json')
-
 
 module.exports = () => {
     let rawData = fs.readFileSync(dbPath, function (err, data) {
@@ -37,13 +35,13 @@ module.exports = () => {
             })
         }
     })
-
+    
+    console.log('API ON: http://'+config.host);
     return dbJSON;
 }
 
 const replaceBaseUrl = url => {
-    const host = config.host === undefined ? 'localhost' : config.host
     return url.replace(
         'http://api.o-rama.store/',
-        'http://' + host + ':' + config.port + '/')
+        'http://' + config.host + ':' + config.port + '/')
 }

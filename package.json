@@ -6,10 +6,13 @@
   "dependencies": {
     "json-server": "^0.14.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "internal-ip": "^3.0.1",
+    "ip": "^1.1.5"
+  },
   "scripts": {
     "start": "node ./src/server.js --watch ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js",
-    "debug": "nodemon --inspect ./node_modules/json-server/bin/index.js ./src/index.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js"
+    "dev": "node ./bin/config-replace-ip.js && nodemon --inspect ./node_modules/json-server/bin/index.js ./src/dev.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js"
   },
   "author": "Kévio Castro"
 }
