@@ -36,7 +36,6 @@ module.exports = () => {
         }
     })
     
-    console.log('API ON: http://'+config.host);
     return dbJSON;
 }
 

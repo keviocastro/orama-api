@@ -11,7 +11,7 @@
     "ip": "^1.1.5"
   },
   "scripts": {
-    "start": "node ./src/server.js --watch ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js",
+    "start": "json-server ./storage/db.json -c ./config.json -m ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js",
     "dev": "node ./bin/config-replace-ip.js && nodemon --inspect ./node_modules/json-server/bin/index.js ./src/dev.js ./storage/db.json -c ./config.json --middlewares ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js"
   },
   "author": "Kévio Castro"
