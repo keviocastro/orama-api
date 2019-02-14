@@ -1,0 +1,1 @@
+json-server ./storage/db.json -c ./config.json -m ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js
