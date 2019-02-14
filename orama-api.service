@@ -2,7 +2,7 @@
 Description=Orama API
 
 [Service]
-ExecStart=/home/keviocastro/orama-api/start.sh
+ExecStart=/home/keviocastro/orama-api/node_modules/json-server/bin/index.js ./storage/db.json -c ./config.json -m ./src/uploadImageMiddleware.js ./src/prepareBodyMiddleware.js
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
