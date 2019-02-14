@@ -2,7 +2,7 @@
 Description=Orama API
 
 [Service]
-ExecStart=npm start
+ExecStart=/home/keviocastro/orama-api/start.sh
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
