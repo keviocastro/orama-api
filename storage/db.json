@@ -157,6 +157,7 @@
       "id": 1,
       "fb_id": 111582516273180,
       "highlighted": true,
+      "fb_token": "EAAF1zJ3haZCkBACIeDQi6DXV3aUecevXyEwsZAu7zPALkfOZB0sBh4K3XQxDPKZBZCLVCX7gqSiPFqkeJ2y8Yx5v4vk0FsTE27FK0CxMXQ3vnqqPw2cUfdShsdPGoWBRottWnKnVTQ8T5eVyEJZBKcPZC9dMoNrnCmzCCHi2Pqz4lgIZCEXUxGwzTKMvMiMdVtyG2JnMpopBPwZDZD",
       "fb_user_name": "origamis.app.9",
       "welcome_messages": [
         "Olá, é bom te ver por aqui",
@@ -173,13 +174,13 @@
       "logo": "http://35.247.212.164/images/partners/logos/logo-1.png",
       "latest_posts": [
         {
-          "image": "http://35.247.212.164/images/partners/posts/promo-1.jpg"
+          "image": "https://scontent.xx.fbcdn.net/v/t1.0-9/23376597_131677224263709_7493303080538028261_n.jpg?_nc_cat=107&_nc_eui2=AeHpiR0eMGBnD8nAOG7GgRsrbKzFcLK4feBYErGIP6h90cmF9J93wVtCHm2B_5oQnQkseJ54sRwSbHmaGQuuWaeV&_nc_ht=scontent.xx&oh=722383ab7ce6a0f59032cdab2a4b2292&oe=5CE47CBD"
         },
         {
-          "image": "http://35.247.212.164/images/partners/posts/promo-2.jpg"
+          "image": "https://scontent.xx.fbcdn.net/v/t1.0-9/23472073_131675884263843_488732956210991062_n.jpg?_nc_cat=103&_nc_eui2=AeFqmDrTeyhBNvBWjpWLJkiXMe8q-sIQhKlVdMjNpRj33-8qro3dewGMUlNFGyRRUZ0Z2ym7N8eyYkzbgtPV-a_B&_nc_ht=scontent.xx&oh=2140669ce41e9e7409391acd485af17e&oe=5CF6CD87"
         },
         {
-          "image": "http://35.247.212.164/images/partners/posts/promo-3.jpg"
+          "image": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/23231094_129243371173761_8473527840335348172_n.jpg?_nc_cat=107&_nc_eui2=AeG1pZccuR67wvze2wEhkrchl9lh1FHqCbmmV-s-Ob7DL6uyxIs_eZh5B2opSbFG3mPbxJRgH0qDe12pRQxMJH8b&_nc_ht=scontent.xx&oh=e2d1d3e365a9c3c8fd52bf81803df02e&oe=5CDC4350"
         }
       ],
       "location": {
@@ -200,7 +201,8 @@
           "feed_image": "blob:http://localhost:3000/f9581c1e-06fa-4751-bc2b-3e36e7b44001",
           "name": "fritas.jpeg"
         }
-      ]
+      ],
+      "last_posts": "[{},{},{}]"
     },
     {
       "segmentIds": [
