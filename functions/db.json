@@ -193,15 +193,7 @@
         "expires": 1513993487000
       },
       "priority": 1,
-      "feed_image": [
-        {
-          "rawFile": {
-            "preview": "blob:http://localhost:3000/f9581c1e-06fa-4751-bc2b-3e36e7b44001"
-          },
-          "feed_image": "blob:http://localhost:3000/f9581c1e-06fa-4751-bc2b-3e36e7b44001",
-          "name": "fritas.jpeg"
-        }
-      ],
+      "feed_image": "https://us-central1-o-rama2.cloudfunctions.net/api/images/partners/feeds/cardapio-bar-2018.jpg",
       "last_posts": "[{},{},{}]"
     },
     {
